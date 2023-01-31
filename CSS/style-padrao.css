@@ -63,6 +63,8 @@ ul li span{
     
 }
 
+
+
 /*Body*/
 
 section#mensagem-inicial{
@@ -77,10 +79,59 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,5,80,1) 45%, rgba(0
     font-size: 7rem;
     margin-left: 13rem;
     justify-content: flex-start;
+    text-shadow: white 5px 5px 5px;
 
-   
 }
 
+#mensagem{
+    text-shadow: white 2px 2px 2px;
+
+}
+
+.quant-final{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+#prod-final{
+    justify-content: center;
+    text-align: center;
+}
+
+.excluir-cart{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.cupom{
+    text-align: center;
+}
+
+.pagamento{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.inicio-cart{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+
+.bi-trash3-fill{
+    color:rgb(233, 6, 6);
+}
+
+.bi-cart-x-fill{
+    color:rgb(233, 6, 6);
+}
 /*input*/
 
 .pesquisa{
@@ -204,8 +255,9 @@ img{
 .atalho-compra{
     display: flex;
     justify-content:space-between;
-    margin: auto;
+    margin: 3rem;
     font-size: 1.5rem;
+    margin-top: 0;
 }
 
 .quantidade{
