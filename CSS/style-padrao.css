@@ -134,12 +134,16 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,5,80,1) 45%, rgba(0
 }
 /*input*/
 
-.pesquisa{
+#input{
     display: flex;
     width: 90%;
     margin: auto;
     align-items: center;
     padding-left: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+   
     
 }
 
